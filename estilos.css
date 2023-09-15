@@ -1,0 +1,95 @@
+body {
+    background-color: aqua;
+    background-image: linear-gradient(to bottom left, rgb(253, 26, 105), rgb(221, 154, 59));
+    height: 700px;
+    margin: 0;
+}
+
+.header{
+    background: rgba(250, 128, 114, 0.288);
+    padding: 3px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0  1px 0  rgba(0, 0, 0, 0.19);
+}
+
+.logo span{
+    font-size: 15px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.opciones1 span{
+    background-color: rgba(250, 128, 114, 0.021);
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.opciones1 :hover{
+    background-color: rgb(255, 0, 76, 0.411);
+}
+
+.botones button{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.658);
+    border: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.texto {
+    background-color: rgba(247, 14, 84, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    width: 35%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    margin: 5px;
+    font-size: 50px;
+    display: flex;
+}
+
+p {
+    color: white;
+    margin: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.Registro button {
+    border: 0;
+    color: linear-gradient(to bottom left, rgb(253, 26, 105), rgb(221, 154, 59));;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 35%;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 100px;
+    padding: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0  1px 0  rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(224, 229, 177. 0247);
+}
